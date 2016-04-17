@@ -1,0 +1,30 @@
+{
+  "name": "tap-doctest",
+  "version": "1.0.0",
+  "description": "Generates and executes tests from the code examples existing in a function's markdown documentation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stojanovic/tap-doctest.git"
+  },
+  "keywords": [
+    "doctest",
+    "tap",
+    "documentation",
+    "test"
+  ],
+  "author": "Slobodan Stojanovic <slobodan@cloudhorizon.com> (http://slobodan.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stojanovic/tap-doctest/issues"
+  },
+  "homepage": "https://github.com/stojanovic/tap-doctest#readme",
+  "devDependencies": {
+    "extract-comments": "^0.10.1",
+    "extract-gfm": "^0.1.0",
+    "tap": "^5.7.1"
+  }
+}
