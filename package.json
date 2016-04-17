@@ -4,7 +4,7 @@
   "description": "Generates and executes tests from the code examples existing in a function's markdown documentation",
   "main": "src/index.js",
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,6 @@
   "devDependencies": {
     "extract-comments": "^0.10.1",
     "extract-gfm": "^0.1.0",
-    "tap": "^5.7.1"
+    "tape": "^4.5.1"
   }
 }
